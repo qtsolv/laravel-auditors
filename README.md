@@ -2,6 +2,11 @@
 
 Record created by, updated by and deleted by on [Eloquent](https://laravel.com/docs/6.x/eloquent) models automatically.
 
+[![Latest Version][latest-version-image]][latest-version-url]
+[![Downloads][downloads-image]][downloads-url]
+[![PHP Version][php-version-image]][php-version-url]
+[![License][license-image]](LICENSE)
+
 ### Installation
 
 ```bash
@@ -58,3 +63,11 @@ From now onwards, `createdBy`, `updatedBy` and `deletedBy` on this model will be
 ### License
 
 See [LICENSE](LICENSE) file.
+
+[latest-version-image]: https://img.shields.io/github/release/qtsolv/laravel-auditors.svg?style=flat-square
+[latest-version-url]: https://github.com/qtsolv/laravel-auditors/releases
+[downloads-image]: https://img.shields.io/packagist/dt/quarks/laravel-auditors.svg?style=flat-square
+[downloads-url]: https://packagist.org/packages/quarks/laravel-auditors
+[php-version-image]: http://img.shields.io/badge/php-7.2+-8892be.svg?style=flat-square
+[php-version-url]: https://www.php.net/downloads
+[license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
