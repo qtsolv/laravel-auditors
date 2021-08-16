@@ -1,0 +1,32 @@
+{
+  "authors": [
+    {
+      "name": "Vaibhav Pandey",
+      "email": "vaibhav.pandey@qtsolv.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Quarks\\Laravel\\Auditors\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "description": "Record created by, updated by and deleted by on Eloquent models automatically.",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Quarks\\Laravel\\Auditors\\AuditorServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "name": "quarks/laravel-auditors",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.2",
+    "laravel/framework": "^6.0 || ^7.0 || ^8.0"
+  },
+  "type": "library"
+}
