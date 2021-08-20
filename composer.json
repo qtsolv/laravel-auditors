@@ -25,7 +25,9 @@
   "name": "quarks/laravel-auditors",
   "prefer-stable": true,
   "require": {
-    "php": ">=7.2",
+    "php": ">=7.2"
+  },
+  "require-dev": {
     "laravel/framework": "^6.0 || ^7.0 || ^8.0"
   },
   "type": "library"

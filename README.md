@@ -1,6 +1,6 @@
 # quarks/laravel-auditors
 
-Record created by, updated by and deleted by on [Eloquent](https://laravel.com/docs/6.x/eloquent) models automatically.
+Record created by, updated by and deleted by (if [SoftDeletes](https://laravel.com/docs/6.x/eloquent#soft-deleting) added) on [Eloquent](https://laravel.com/docs/6.x/eloquent) models automatically.
 
 [![Latest Version][latest-version-image]][latest-version-url]
 [![Downloads][downloads-image]][downloads-url]
@@ -57,8 +57,8 @@ class User extends Authenticatable
 }
 ```
 
-From now onwards, `createdBy`, `updatedBy` and `deletedBy` on this model will be saved automatically on `created`,
-`updated` and `deleted` model events respectively.
+From now onwards, `createdBy`, `updatedBy` and `deletedBy` relations on this model will automatically be saved on
+`created`, `updated` and `deleted` model events respectively.
 
 ### License
 
