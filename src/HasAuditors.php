@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 
 /**
  * Trait HasAuditors
- * @package App\Support
+ * @package Quarks\Laravel\Auditors
  *
  * @property-read Model|null createdBy
  * @property-read Model|null updatedBy
