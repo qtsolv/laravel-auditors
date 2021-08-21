@@ -11,9 +11,9 @@ use Illuminate\Support\Facades\Auth;
  * Trait HasAuditors
  * @package Quarks\Laravel\Auditors
  *
- * @property-read Model|null createdBy
- * @property-read Model|null updatedBy
- * @property-read Model|null deletedBy
+ * @property-read Model|null $createdBy
+ * @property-read Model|null $updatedBy
+ * @property-read Model|null $deletedBy
  */
 trait HasAuditors
 {
