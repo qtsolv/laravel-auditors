@@ -17,10 +17,6 @@ use Illuminate\Support\Facades\Auth;
  */
 trait HasAuditors
 {
-    protected static $logAttributesToIgnore = [
-        'created_by_id', 'created_by_type', 'updated_by_id', 'updated_by_type', 'deleted_by_id', 'deleted_by_type',
-    ];
-
     public static function bootHasAuditors()
     {
         static::creating(function ($model) {
